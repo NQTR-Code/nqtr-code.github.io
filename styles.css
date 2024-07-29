@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0; /* Fundo suave */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px; /* Espaçamento maior */
+    box-sizing: border-box;
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
+
+button {
+    display: inline-block;
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 1%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transição suave */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#downloadImage {
+    background-color: #28a745; /* Verde para o botão de download */
+}
+
+#downloadImage:hover {
+    background-color: #218838; /* Verde escuro para hover */
+}
+
+canvas {
+    width: 100% !important;
+    height: 500px !important; /* Altura ajustada para melhor visualização */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
